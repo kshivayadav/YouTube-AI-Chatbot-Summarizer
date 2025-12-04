@@ -24,8 +24,8 @@ A **smart AI-powered YouTube Chatbot** that summarizes YouTube video transcripts
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/youtube-ai-chatbot.git
-cd youtube-ai-chatbot
+git clone https://github.com/kshivayadav/YouTube-AI-Chatbot-Summarizer.git
+cd YouTube-AI-Chatbot-Summarizer
 ```
 2. Create a virtual environment:
 ```bash
@@ -76,6 +76,8 @@ Multi-language transcript support
 
 Handles long YouTube videos with vector embeddings
 
+Uses sentence-transformers/all-MiniLM-L6-v2 for Embeddings
+
 Uses GPT-OSS for lightweight LLM responses
 
 Polished professional UI suitable for recruiters
@@ -87,6 +89,13 @@ If transcripts are disabled for a video, the app will display an error.
 The AI will only answer from the transcript. If information is missing, it responds with:
 
 "The transcript does not contain this information."
+
+## 📫 Contact
+
+- **GitHub:** [kshivayadav](https://github.com/kshivayadav)  
+- **LinkedIn:** [K Shiva Kumar](https://www.linkedin.com/in/shiva-kumar-5586432b0/)  
+- **Email:** [kshivayadav7@gmail.com](mailto:kshivayadav7@gmail.com)  
+
 
 
 
