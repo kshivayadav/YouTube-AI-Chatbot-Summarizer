@@ -9,6 +9,7 @@ API_KEY = os.getenv("API_KEY")
 print(f'API_KEY in frontend:{API_KEY}')
 BACKEND_URL = os.getenv("BACKEND_URL")
 
+print(f'BACKEND_URL in frontend:{BACKEND_URL}')
 theme = st.get_option("theme.base")
 
 user_bg = "#1E90FF"
@@ -76,6 +77,7 @@ def show_api_error(status_code, detail):
 
 def call_chat_api(url, payload, headers, stream=False):
     print(f'Headers:{headers}')
+    print(url)
     try:
         return requests.post(
             url,
