@@ -68,7 +68,7 @@ def create_vectorstore(text):
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
     vectorstore = FAISS.from_documents(chunks, embeddings)
-    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 4})
+    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
     return retriever
 
